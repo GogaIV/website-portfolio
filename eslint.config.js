@@ -29,5 +29,7 @@ export default [
         { allowConstantExport: true },
       ],
     },
+    
   },
 ]
+
