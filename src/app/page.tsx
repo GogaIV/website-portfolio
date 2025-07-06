@@ -10,7 +10,7 @@ export default function Home() {
           <div>
             <img
               src="/assets/Images/saturn.jpg"
-              className="w-[18vw] h-[30vh] rounded-full m-7"
+              className="w-[18vw] h-[30vh] rounded-md m-7"
             />
           </div>
           <div className="flex flex-col sm:flex-row gap-[14px] items-center justify-center mb-4">
