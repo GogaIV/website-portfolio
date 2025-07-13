@@ -4,8 +4,11 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div id="projects" className="mb-400 mt-18">
-      <div className="bg-[#191919] rounded-lg p-6">
+    <div
+      id="projects"
+      className="flex justify-center items-center w-full my-20"
+    >
+      <div className="bg-[#191919] rounded-lg p-6 w-full max-w-7xl mx-auto">
         <h2 className="text-2xl font-semibold text-white mb-6">Projects</h2>
         <div className="max-h-96 overflow-y-auto pr-2">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
