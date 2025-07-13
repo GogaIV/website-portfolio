@@ -4,7 +4,7 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <div id="projects" className="mb-400 mt-700">
+    <div id="projects" className="mb-400 mt-18">
       <div className="bg-[#191919] rounded-lg p-6">
         <h2 className="text-2xl font-semibold text-white mb-6">Projects</h2>
         <div className="max-h-96 overflow-y-auto pr-2">

@@ -14,7 +14,7 @@ const portfolio = () => {
       {/* Navigation bar */}
       <Navigation sections={sections} />
       {/* Encases the profile section */}
-      <div id="about" className="max-w-6xl mx-auto">
+      <div id="about" className="max-w-6xl mx-auto mt-14">
         <div className="flex items-start gap-8 mb-8">
           {
             // Profile picture - Needs to be replaced
@@ -42,11 +42,13 @@ const portfolio = () => {
         }
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2">
-            <div className="bg-[#191919] rounded-lg p-6 h-40">
+            <div className="bg-[#191919] outline-solid outline-[#464646] rounded-lg p-6 h-40">
               <h2 className="text-2xl font-semibold text-white mb-4">
                 About Me
               </h2>
-              <div className="text-white"></div>
+              <div className="text-gray-400">
+                dgasd
+              </div>
             </div>
           </div>
 
@@ -54,11 +56,11 @@ const portfolio = () => {
             // Achievements
           }
           <div className="lg:col-span-1 lg:row-span-3">
-            <div className="bg-[#191919] rounded-lg p-6 h-full">
-              <h2 className="text-2xl font-semibold text-primary mb-4">
+            <div className="bg-[#191919] outline-solid outline-[#464646] rounded-lg p-6 h-full">
+              <h2 className="text-2xl text-gray-200 font-semibold mb-4">
                 Achievements
               </h2>
-              <div className="text-white">
+              <div className="text-gray-400">
                 <p className="mb-2">• Level 2 Excellence Endorsment</p>
                 <p className="mb-2">• Level 3 Merit Endorsment</p>
                 <p className="mb-2">•</p>
@@ -73,7 +75,7 @@ const portfolio = () => {
             // Schooling
           }
           <div className="lg:col-span-2">
-            <div className="bg-[#191919] outline-solid outline-gray-400 rounded-lg p-6 h-34">
+            <div className="bg-[#191919] outline-solid outline-[#464646] rounded-lg p-6 h-34">
               <h2 className="text-2xl font-semibold text-gray-200 mb-4">
                 Schooling
               </h2>
@@ -92,11 +94,11 @@ const portfolio = () => {
 
           {/* Job History */}
           <div className="lg:col-span-2">
-            <div className="bg-[#191919] rounded-lg p-6 h-40">
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            <div className="bg-[#191919] outline-solid outline-[#464646] rounded-lg p-6 h-40">
+              <h2 className="text-2xl font-semibold text-gray-200 mb-4">
                 Job History
               </h2>
-              <div className="text-gray-600">
+              <div className="text-gray-400">
                 {/* What a job section looks like start */}
                 <div>
                   <p className="font-medium">
