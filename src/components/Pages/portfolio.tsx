@@ -1,9 +1,20 @@
 import React from "react";
+import Navigation from "@/components/navigation";
+import Projects from "@/components/projects";
 
 const portfolio = () => {
+  // Define sections for navigation
+  const sections = [
+    { id: "about", label: "About Me" },
+    { id: "projects", label: "Projects" },
+  ];
+
   return (
     <div className="min-h-screen bg-[#1b1b1b] p-8">
-      <div className="max-w-6xl mx-auto">
+      {/* Navigation bar */}
+      <Navigation sections={sections} />
+      {/* Encases the profile section */}
+      <div id="about" className="max-w-6xl mx-auto">
         <div className="flex items-start gap-8 mb-8">
           {
             // Profile picture - Needs to be replaced
@@ -32,7 +43,7 @@ const portfolio = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2">
             <div className="bg-[#191919] rounded-lg p-6 h-40">
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+              <h2 className="text-2xl font-semibold text-white mb-4">
                 About Me
               </h2>
               <div className="text-white"></div>
@@ -62,16 +73,18 @@ const portfolio = () => {
             // Schooling
           }
           <div className="lg:col-span-2">
-            <div className="bg-[#191919] outline-solid outline-red-400 rounded-lg p-6 h-34">
-              <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            <div className="bg-[#191919] outline-solid outline-gray-400 rounded-lg p-6 h-34">
+              <h2 className="text-2xl font-semibold text-gray-200 mb-4">
                 Schooling
               </h2>
-              <div className="text-gray-600">
+              <div className="text-gray-400">
                 <p>
-                   University Entrance Qualification • Ormiston Senior College • 2021-2024
+                  University Entrance Qualification • Ormiston Senior College •
+                  2021-2024
                 </p>
                 <p>
-                  Bachelor of Science - Computer Science & Marine Science • University of Auckland • 2025-2027
+                  Bachelor of Science - Computer Science & Marine Science •
+                  University of Auckland • 2025-2027
                 </p>
               </div>
             </div>
@@ -84,7 +97,6 @@ const portfolio = () => {
                 Job History
               </h2>
               <div className="text-gray-600">
-
                 {/* What a job section looks like start */}
                 <div>
                   <p className="font-medium">
@@ -93,12 +105,14 @@ const portfolio = () => {
                   <p className="text-sm">2022 - 2023</p>
                 </div>
                 {/* What a job section looks like end */}
-
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Projects Section */}
+      <Projects />
     </div>
   );
 };
