@@ -14,7 +14,7 @@ const portfolio = () => {
       {/* Navigation bar */}
       <Navigation sections={sections} />
       {/* Encases the profile section */}
-      <div id="about" className="max-w-6xl mx-auto mt-14">
+      <div id="about" className="max-w-7xl mx-auto mt-14">
         <div className="flex items-start gap-8 mb-8">
           {
             // Profile picture - Needs to be replaced
@@ -40,7 +40,7 @@ const portfolio = () => {
         {
           // About me section
         }
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-6 gap-x-12 ">
           <div className="lg:col-span-2">
             <div className="bg-[#191919] outline-solid outline-[#464646] rounded-lg p-6 h-40">
               <h2 className="text-2xl font-semibold text-white mb-4">
