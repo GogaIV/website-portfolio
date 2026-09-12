@@ -1,5 +1,5 @@
 {
-  "name": "webportfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.517.0",
-    "next": "15.3.4",
+    "next": "^16.3.5",
     "react": "^19.1.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.6.3",
